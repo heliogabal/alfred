@@ -1,0 +1,29 @@
+body {
+  background: url(../img/panel_bg.jpg) no-repeat center center fixed $alfred;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#main-content {
+  background: $white;
+  padding: 3em;
+  margin-bottom: 5em;
+  @include border-radius($border-radius);
+  opacity: 0.98;
+}
+.messages {
+  @include border-radius($border-radius);
+}
+.siteinfo {
+  float: right;
+  margin: 1em 0;
+}
+.logo-img {
+  @include border-radius($border-radius);
+  width: 378px;
+  height: 175px;
+}
+.container {
+  max-width: 70em;
+}
