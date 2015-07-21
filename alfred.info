@@ -1,6 +1,5 @@
 name = Neue Energien
-description = Theme basierend auf Parrot. Parrot is a Drupal 7 
-Mothership subtheme that uses "some" Bootstrap CSS structure, with SASS & Compass.
+description = Theme basierend auf Parrot. Parrot is a Drupal 7 Mothership subtheme that uses "some" Bootstrap CSS structure, with SASS & Compass.
 screenshot = screenshot.png
 engine = phptemplate
 core = 7.x
@@ -150,15 +149,9 @@ settings[mothership_classes_block_freeform] = ''
 settings[mothership_classes_node_freeform] = ''
 settings[mothership_classes_region_freeform] = ''
 
-; Information added by drupal.org packaging script on 2013-07-16
-version = "7.x-1.x-dev"
-core = "7.x"
-project = "parrot"
-datestamp = "1373983271"
-
 ; Information added by Drupal.org packaging script on 2015-04-23
 version = "7.x-1.x-dev"
 core = "7.x"
-project = "parrot"
+project = "alfred"
 datestamp = "1429773783"
 

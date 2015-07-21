@@ -4874,6 +4874,10 @@ nav#block-system-main-menu ul {
   -webkit-border-radius: 3px;
   border-radius: 3px;
   opacity: 0.98; }
+  @media screen and (max-width: 961px) {
+    nav#block-system-main-menu ul {
+      margin: 1em 2em 1em 0;
+      width: 100%; } }
   nav#block-system-main-menu ul li {
     display: inline-block; }
     nav#block-system-main-menu ul li a {

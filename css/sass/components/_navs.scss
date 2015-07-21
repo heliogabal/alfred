@@ -634,6 +634,10 @@ nav#block-system-main-menu {
   ul {
     float: left;
     margin: 8.5em 2em 1em 0;
+    @media screen and (max-width: $medium) {
+      margin: 1em 2em 1em 0;
+      width: 100%;
+    }
     padding: 0;
     border: 0;
     background: $white;
