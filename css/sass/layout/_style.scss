@@ -8,6 +8,10 @@ body {
 #main-content {
   background: $white;
   padding: 3em;
+  @media screen and (max-width: $small) {
+    padding: 1em;
+    margin-bottom: 10em;
+  }
   margin-bottom: 5em;
   @include border-radius($border-radius);
   opacity: 0.98;
