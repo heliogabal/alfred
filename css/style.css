@@ -3006,6 +3006,10 @@ body {
 .container {
   max-width: 70em; }
 
+.mitarbeiterbild {
+  float: left;
+  margin: 0 1em 1em 0; }
+
 p {
   margin: 0 0 12px; }
 
