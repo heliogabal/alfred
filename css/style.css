@@ -3001,13 +3001,15 @@ body {
   max-width: 70em; }
 
 .mitarbeiter {
-  float: left; }
+  float: left;
+  margin: 0 1em; }
   .mitarbeiter h3 {
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 0; }
 
 .mitarbeiterbild {
   float: left;
-  margin: 0 1em 1em 0; }
+  margin: 0 0 3em 0; }
 
 .taetigkeit {
   text-align: center; }
