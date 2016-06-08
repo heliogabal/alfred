@@ -466,13 +466,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.sprite-sprite, .sprite-logo {
-  background-image: url('../img/sprite-sc56163011c.png');
-  background-repeat: no-repeat; }
-
-.sprite-logo {
-  background-position: 0 0; }
-
 /*!
  *  Font Awesome 3.0.2
  *  the iconic font designed for use with Twitter Bootstrap
@@ -2977,6 +2970,7 @@ body {
 #main-content {
   background: #fff;
   padding: 3em;
+  overflow: hidden;
   margin-bottom: 5em;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -3006,9 +3000,17 @@ body {
 .container {
   max-width: 70em; }
 
+.mitarbeiter {
+  float: left; }
+  .mitarbeiter h3 {
+    text-align: center; }
+
 .mitarbeiterbild {
   float: left;
   margin: 0 1em 1em 0; }
+
+.taetigkeit {
+  text-align: center; }
 
 p {
   margin: 0 0 12px; }

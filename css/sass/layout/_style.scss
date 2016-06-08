@@ -8,6 +8,7 @@ body {
 #main-content {
   background: $white;
   padding: 3em;
+  overflow: hidden;
   @media screen and (max-width: $small) {
     padding: 1em;
     margin-bottom: 10em;
@@ -31,7 +32,16 @@ body {
 .container {
   max-width: 70em;
 }
+.mitarbeiter {
+  float: left;
+  h3 {
+    text-align: center;
+  }
+}
 .mitarbeiterbild {
   float: left;
   margin: 0 1em 1em 0;
+}
+.taetigkeit {
+  text-align: center;
 }
