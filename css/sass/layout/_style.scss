@@ -13,10 +13,54 @@ body {
     padding: 1em;
     margin-bottom: 10em;
   }
-  margin-bottom: 5em;
   @include border-radius($border-radius);
   opacity: 0.98;
 }
+.page.row {
+  background: #fff;
+  overflow: hidden;
+  @include border-radius($border-radius);
+  opacity: 0.98;
+  margin-bottom: 5em;
+}
+  #main-content {
+      @include span-columns(12 omega, 12);
+
+      @include at-breakpoint($narrow){
+        @include span-columns(12 omega, 12);
+      }
+      @include at-breakpoint($tablet){
+        @include remove-omega;
+        @include span-columns(12, 12);
+      }
+      @include at-breakpoint($computer){
+        @include remove-omega;
+        @include span-columns(12, 12);
+      }
+      @include at-breakpoint($wide){
+        @include remove-omega;
+        @include span-columns(12, 12);
+      }
+    }
+    /*.container .sidebar-second{
+      background: $white;
+      padding: 3em 1em;
+      @include span-columns(12 omega, 12);
+
+      @include at-breakpoint($narrow){
+        @include span-columns(12 omega, 12);
+      }
+      @include at-breakpoint($tablet){
+        @include span-columns(3 omega, 12);
+      }
+      @include at-breakpoint($computer){
+        @include span-columns(4 omega, 12);
+      }
+      @include at-breakpoint($wide){
+        @include span-columns(4 omega, 12);
+      }
+    }*/
+
 .messages {
   @include border-radius($border-radius);
 }
@@ -34,15 +78,15 @@ body {
 }
 .mitarbeiter {
   float: left;
-  margin: 0 1em;
-  h3 {
+  margin: 0 1em 2em;
+  h4 {
     text-align: center;
     margin-bottom: 0;
   }
 }
 .mitarbeiterbild {
   float: left;
-  margin: 0 0 3em 0;
+  margin: 0 0 1em 0;
 }
 .taetigkeit {
   text-align: center;

@@ -2971,7 +2971,6 @@ body {
   background: #fff;
   padding: 3em;
   overflow: hidden;
-  margin-bottom: 5em;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -2981,6 +2980,66 @@ body {
       padding: 1em;
       margin-bottom: 10em; } }
 
+.page.row {
+  background: #fff;
+  overflow: hidden;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  opacity: 0.98;
+  margin-bottom: 5em; }
+
+#main-content {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  *margin-left: -1.5em;
+  display: inline; }
+  @media (min-width: 30em) {
+    #main-content {
+      width: 100%;
+      float: right;
+      margin-right: 0; } }
+  @media (min-width: 40em) {
+    #main-content {
+      float: left;
+      margin-right: 2.5641%;
+      width: 100%;
+      float: left;
+      margin-right: 1.69492%; } }
+  @media (min-width: 52em) {
+    #main-content {
+      float: left;
+      margin-right: 1.69492%;
+      width: 100%;
+      float: left;
+      margin-right: 1.69492%; } }
+  @media (min-width: 65em) {
+    #main-content {
+      float: left;
+      margin-right: 1.69492%;
+      width: 100%;
+      float: left;
+      margin-right: 1.69492%; } }
+
+    /*.container .sidebar-second{
+      background: $white;
+      padding: 3em 1em;
+      @include span-columns(12 omega, 12);
+
+      @include at-breakpoint($narrow){
+        @include span-columns(12 omega, 12);
+      }
+      @include at-breakpoint($tablet){
+        @include span-columns(3 omega, 12);
+      }
+      @include at-breakpoint($computer){
+        @include span-columns(4 omega, 12);
+      }
+      @include at-breakpoint($wide){
+        @include span-columns(4 omega, 12);
+      }
+    }*/
 .messages {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -3002,14 +3061,14 @@ body {
 
 .mitarbeiter {
   float: left;
-  margin: 0 1em; }
-  .mitarbeiter h3 {
+  margin: 0 1em 2em; }
+  .mitarbeiter h4 {
     text-align: center;
     margin-bottom: 0; }
 
 .mitarbeiterbild {
   float: left;
-  margin: 0 0 3em 0; }
+  margin: 0 0 1em 0; }
 
 .taetigkeit {
   text-align: center; }
