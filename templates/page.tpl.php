@@ -30,7 +30,7 @@
           <?php if ($logo): ?>
             <div class="logo">
               <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">
-                <img src="<?php print $logo; ?>" class="logo-img" alt="<?php print t('Home'); ?>" />
+                <img src="<?php print $logo; ?>" class="logo-img" alt="Neue Energien Projekt GmbH Solaranlagen Logo" />
               </a>
             </div>
           <?php endif; ?>

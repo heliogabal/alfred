@@ -3061,7 +3061,8 @@ body {
 
 .mitarbeiter {
   float: left;
-  margin: 0 1em 2em; }
+  margin: 0 1em 2em; 
+  height: 472px; }
   .mitarbeiter h4 {
     text-align: center;
     margin-bottom: 0; }
